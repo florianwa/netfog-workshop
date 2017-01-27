@@ -1,0 +1,15 @@
+<section><h2 id="about-me">Scope of the Workshop</h2><hr class="bar"/>
+
+<div class="blurb">
+<p>
+The continuous growth of Internet content, applications and services has resulted in ever more demanding requirements of <i>computing power</i>, <i>scalability</i>, <i>data processing</i>, <i>data storage</i>, <i>energy consumption</i> and <i>transfer speed</i>. To meet this, one solution is the use of the <b><i>cloud paradigm</i></b> for applications and services. It covers a broad range of distributed computing principles as well as related application paradigms, networking approaches or architecture models. 
+</p><p>
+This workshop covers the scientific areas around <i>Cloud Networks, Programmability inside Networks, Cloud and Fog Computing principles, Software Defined Networking, Network Function Virtualization,</i> and <i>Software Engineering approaches for Highly Distributed Applications</i>.
+</p><p>
+The workshop is supported and initiated by the two EC H2020 projects INPUT & ARCADIA.
+</p>
+
+</div>
+<div class="about-lock"><div ontouchstart="this.classList.toggle('hover');" class="flip-container"><div class="flipper"><div class="front"><div class="face-img"></div></div><div class="back"><div class="face1-img"></div></div></div></div><div class="glyph-icon flaticon-cogwheel28"></div><div class="glyph-icon flaticon-computer1"></div><div class="glyph-icon flaticon-hosting"></div><div class="glyph-icon flaticon-computers13"></div></div>
+
+<div class="skill-lock"></div></section>

@@ -1,0 +1,133 @@
+
++MQ(S)
+  .arrow
+    display: none
+  .logo
+    display: none
+  a.back-to-top
+    display: none
+
+
++MQ(M)
+  a.back-to-top
+    display: none
+    width: 40px
+    height: 40px
+    text-indent: -9999px
+    position: fixed
+    z-index: 998
+    right: 20px
+    bottom: 20px
+    background: url(../img/silhouette125.svg) no-repeat center
+    background-size: 15px
+    background-color: $color-1
+    -webkit-border-radius: 30px
+    -moz-border-radius: 30px
+    border-radius: 30px
+
++MQ(L)
+  .logo
+    display: block
+    background: url(../img/procon-logo.svg) center center
+    background-size: 160px 108px
+    background-repeat: no-repeat
+    width: 160px
+    height: 108px
+    position: fixed
+    left: 20px
+    top: 20px
+    padding-right: 5px
+    padding-bottom: 10px
+    z-index: 888
+
+
+
+header
+  +MQ(S)
+    height: 300px
+  +MQ(M)
+    height: 390px
+  +MQ(L)
+    height: 450px
+  background: url(../img/galway2.jpg) center center
+  background-size: cover
+
+
+  nav
+    float: right
+    margin: 30px 30px 30px
+
+    a
+      +MQ(S)
+        display: none
+      +MQ(M)
+        display: inline-block
+      margin-left: 20px
+      color: rgba(0, 0, 0,0.5)
+      @extend %small-bold
+
+
+      &:hover
+        color: rgba(0,0,0,1)
+
+  h1
+    text-align: center
+
+    color: rgba(68, 68, 68, 1)
+    //text-transform: uppercase
+    letter-spacing: 0.05cm
+    margin-bottom: 1px
+    clear: both
+    +MQ(S)
+      padding-top: 0px
+      font:
+        size: 32px
+        weight: 350
+    +MQ(M)
+      padding-top: 0px
+      font:
+        size: 20px
+        weight: 350
+
+    +MQ(L)
+      padding-top: 50px
+      font:
+        size: 42px
+        weight: 700
+    span
+      display: inline-block
+      padding: 0.2em 0.5em
+      +MQ(S)
+        padding: 0.2em 0.5em
+      +MQ(M)
+        padding: 0.1em 0.2em
+      +MQ(L)
+        padding: 0.2em 0.5em
+
+
+
+
+  .kicker
+    text-align: center
+    @extend h1
+    padding-top: 0px
+    color: rgba(68,68,68,1)
+
+  .kicker-small
+    text-align: center
+    @extend h1
+    letter-spacing: normal
+    padding-top: 0px
+    font-weight: 500
+    color: rgba(68,68,68,1)
+    a
+      border-bottom: 1px dotted #666;
+      color: rgba(68,68,68,1)
+      &:hover
+        border-bottom: 0px dotted #666;
+    +MQ(S)
+      display: none
+    +MQ(L)
+      display: block
+      text-align: center
+ 

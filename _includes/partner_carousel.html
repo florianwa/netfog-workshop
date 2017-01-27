@@ -1,0 +1,38 @@
+<div id="container">
+
+
+    <div class="photobanner">
+        <span class="photobanner-helper"></span>
+        <img class="first" src="assets/img/partners/wue.png" alt="" />
+        <script language="javascript">
+            var random_images_array = ["cnit.png", "ubitech.png", "ibm.png", "sintef.png", "intracom.png", "tub.png", "athen.png", "poznan.png", "agh.png", "tim.png", "dcu.png", "hopu.png", "piraeus.png", "tuhh.png"];
+            var num = random_images_array.length;
+
+            function getRandomImage() {
+                var num = Math.floor(Math.random() * random_images_array.length);
+                var img = random_images_array[num];
+                random_images_array.splice(num, 1);
+                //alert("as: " +img + " >" + random_images_array);
+                return img;
+            }
+
+            function setImages() {
+                for (i = 0; i < num; i++) {
+                    path = 'assets/img/partners/'; // default path here
+                    var imgStr = '<img src="' + path + getRandomImage() + '" alt = ""/>';
+                    document.write(imgStr);
+                    document.close();
+                }
+            }
+            setImages();
+        </script>
+    </div>
+
+    <div class="simple-text-caption">
+        <p>
+            The aforementioned institutions support the workshop and participate as technical program committee members.
+        </p>
+    </div>
+
+
+</div>

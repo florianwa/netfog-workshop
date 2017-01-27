@@ -1,0 +1,2 @@
+name: Workshop on Network Programmability From the Data Center to the Ground (NetFog 2017)
+exclude: ["node_modules", "gulpfile.js", "package.json"]

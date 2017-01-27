@@ -1,0 +1,49 @@
+.submission
+  background: $bg-color
+
+.button 
+    background-color: #4CAF50; /* Green */
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 2px;
+    -webkit-tran8ition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 5px 0 rgba(0,0,0,0.19);
+
+.button span 
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+.button span:after 
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+.button:hover span 
+  padding-right: 15px;
+
+.button:hover span:after 
+  opacity: 1;
+  right: 0;
+
+.button5 
+    background-color: #ddd
+    color: #444;
+    border: 2px solid #555555;
+
+.button5:hover 
+    background-color: #555555;
+    color: white;
+
+
+
